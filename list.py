@@ -6,3 +6,4 @@ array2 = list(range(0, 10))
 print(array2)
 r  = range(0,4,1)
 print(r)
+array3 =  [1,2,3,4,5]
