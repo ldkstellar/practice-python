@@ -13,10 +13,13 @@ class Person:
         print(self.__id) # 
 
 class Student(Person): # 부모 생성자로 호출 파생클래스 생성자 안해도 부모클래스생성자 자동호출됨
-    def __init__(self, name, age, adrres, id):
+    def __init__(self, name, age, adrres, id,school):
         super(Student,self).__init__(name, age, adrres, id)
+        self.school = school
     def study(self):
         print("공부하기")
+    def thankyou():
+        print("감사합니다")
 
 james = Person("이동규", 28, "hidden", 0)
 james.greeting()
