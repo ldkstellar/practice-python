@@ -3,7 +3,7 @@ def plus_ten(x):
 
 # 일반적인 함수
 
-lambda_def = lambda x: x + 10  # 람다 표현식안에 새로운 변수를 만들 수없다.
+lambda_def = lambda x: x + 10  # 람다 표현식안에 새로운 변수를 만들 수 없다.
 
 # and or not 을 사용한다.
 
